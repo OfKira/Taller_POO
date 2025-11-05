@@ -1,0 +1,14 @@
+public class Camara {
+    private String marca;
+    private String modelo;
+
+    public Camara(String marca, String modelo) {
+        this.marca = marca;
+        this.modelo = modelo;
+    }
+
+    @Override
+    public String toString() {
+        return "Cámara: " + marca + " " + modelo;
+    }
+}
